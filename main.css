@@ -14,14 +14,21 @@ main{
     flex-direction: column;
     color: white;
     align-items: center;
-    height: 76.5vh;
+    height: 79.5vh;
+    padding-top: 15vw;
 }
 
 footer{
     background-color: black;
     display: flex;
+    justify-content: center;
 }
 
 span{
     color:  white;
+}
+
+.spacer{
+    margin-left: 20vw;
+    margin-right: 20vw;
 }
