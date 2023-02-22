@@ -1,0 +1,27 @@
+.link{
+    margin: 2vw;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-start !important;
+    background-color: #D3FAD6;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    height: 76.5vh;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+}
+
+span{
+    color:  white;
+}

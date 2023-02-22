@@ -3,21 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scores</title>
+    <title>Simon</title>
     <link rel="icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <header>
+    <header class="navbar">
       <h1>Simon<sup>&reg;</sup></h1>
       <nav>
-        <menu>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="play.html">Play</a></li>
-          <li><a href="scores.html">Scores</a></li>
-          <li><a href="about.html">About</a></li>
+        <menu class="navbar">
+          <a href="index.html" class="link">Home</a>
+          <a href="play.html" class="link">Play</a>
+          <a href="scores.html" class="link">Scores</a>
+          <a href="about.html" class="link">About</a>
         </menu>
       </nav>
-      <hr />
+      <hr/>
     </header>
 
     <main>
@@ -31,9 +39,7 @@
       </main>
 
       <footer>
-        <hr />
-        <span class="text-reset">Peter Hart</span>
-        <br />
+        <span>Peter Hart</span>
         <a href="https://github.com/kozakhart/simon.git">My GitHub</a>
       </footer>
     </body>
