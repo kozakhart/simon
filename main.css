@@ -15,7 +15,7 @@ main{
     color: white;
     align-items: center;
     height: 79.5vh;
-    padding-top: 15vw;
+    padding-top: 5vw;
 }
 
 footer{
@@ -36,4 +36,9 @@ span{
 th, 
 td{
     color: white;
+}
+
+.card{
+    --bs-card-bg: black !important;
+    width: 50vw;
 }
