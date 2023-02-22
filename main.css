@@ -32,3 +32,8 @@ span{
     margin-left: 20vw;
     margin-right: 20vw;
 }
+
+th, 
+td{
+    color: white;
+}
