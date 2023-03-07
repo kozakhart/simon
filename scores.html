@@ -16,22 +16,31 @@
     />
   </head>
   <body>
-    <header class="navbar">
-      <h1>Simon<sup>&reg;</sup></h1>
-      <nav>
-        <menu class="navbar">
-          <a href="index.html" class="link">Home</a>
-          <a href="play.html" class="link">Play</a>
-          <a href="scores.html" class="link">Scores</a>
-          <a href="about.html" class="link">About</a>
-        </menu>
-      </nav>
-      <hr/>
-    </header>
 
-    <main>
-        <table class="table">
-          <thead>
+    <body class="bg-dark text-light">
+      <header class="container-fluid">
+        <nav class="navbar fixed-top navbar-dark">
+          <a class="navbar-brand" href="#">Simon<sup>&reg;</sup></a>
+          <menu class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="play.html">Play</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="scores.html">Scores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+          </menu>
+        </nav>
+      </header>
+  
+      <main class="container-fluid bg-secondary text-center">
+        <table class="table table-warning table-striped-columns">
+          <thead class="table-dark">
             <tr>
               <th>#</th>
               <th>Name</th>
@@ -39,27 +48,16 @@
               <th>Date</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td>Player 1</td>
-              <td>Peter</td>
-              <td>34</td>
-              <td>May 20, 2021</td>
-            </tr>
-            <tr>
-              <td>Player 2</td>
-              <td>Andrew</td>
-              <td>29</td>
-              <td>June 2, 2021</td>
-            </tr>
-          </tbody>
+          <tbody id="scores"></tbody>
         </table>
       </main>
-  
+
       <footer>
         <span class="spacer">Peter Hart</span>
         <a href="https://github.com/kozakhart/simon.git" class="spacer">My GitHub</a>
       </footer>
+      <script src="scores.js"></script>
+
     </body>
   </html>
   
